@@ -59,7 +59,7 @@ function run() {
   }
   scoreshow.innerHTML = "score: " + score;
 
-  bird.y += 1.5;
+  bird.y += 2.5;
   requestAnimationFrame(run);
 }
 
